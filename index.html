@@ -9,7 +9,14 @@
       rel="stylesheet"
       href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     />
-    <title>Document</title>
+     <!-- Bootstrap CSS -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+     crossorigin="anonymous"
+  />
+    <title>flags</title>
   </head>
   <body class="body">
     <header class="header">
@@ -18,12 +25,12 @@
           <a href="./index.html">
             <img
               class="herder__img"
-              src="/img/Where in the world_.svg"
+              src=" /img/logo.svg"
               alt="img-logo"
             />
             <img
               class="herder__img none"
-              src="/img/logo-wihte.svg"
+              src="/img/logdark.svg"
               alt="logo"
             />
           </a>
@@ -43,234 +50,73 @@
           >
             <label class="search-label" name="search">
               <input
-                class="search-input"
+                class="search-input searchJs "
                 type="text"
                 name="search"
                 placeholder="Search for a country…"
               />
             </label>
 
-            <select class="search-input countri-boss" name="country" id="count">
+            <select class="search-input countri-boss " name="country" id="count">
               <option
                 class="countri"
-                value="Filter by Region"
+                value="all"
                 selected
                 disabled
               >
                 Filter by Region
               </option>
               <option class="countri" value="Africa">Africa</option>
-              <option class="countri" value="America">America</option>
+              <option class="countri" value="Americas">America</option>
               <option class="countri" value="Asia">Asia</option>
-              <option class="countri" value="Europe">Europe</option>
+              <option class="countri" value="europe">Europe</option>
               <option class="countri" value="Oceania">Oceania</option>
             </select>
+            <button class="btn ms-3 btn-info" type="submit">search</button>
           </form>
         </div>
       </section>
       <section class="main-boss-section">
         <div class="container">
           <ul class="main-boss-ul row">
-            <li class="gy-5 col-sm-6 col-md-6 col-lg-3">
-              <div class="main-boss-li">
-                <a href="/belgiya.html">
-                  <img
-                    class="main-boss-img"
-                    src="./img/germaniya.png"
-                    alt="german flag"
-                  />
-                </a>
-                <div class="option">
-                  <h3 class="main-boss-big-text">Germany</h3>
-                  <p class="main-boss-text">
-                    <strong class="strong">Population: </strong> 81,770,900
-                  </p>
-                  <p class="main-boss-text">
-                    <strong class="strong">Region:</strong> Europe
-                  </p>
-                  <p class="main-boss-text main-boss-text-none">
-                    <strong class="strong">Capital: </strong> Berlin
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li class="gy-5 col-sm-6 col-md-6 col-lg-3">
-              <div class="main-boss-li">
-                <a href="/amerika.html">
-                  <img
-                    class="main-boss-img"
-                    src="./img/amerika.png"
-                    alt="german flag"
-                  />
-                </a>
-                <div class="option">
-                  <h3 class="main-boss-big-text">United States of America</h3>
-                  <p class="main-boss-text">
-                    <strong class="strong">Population: </strong> 323,947,000
-                  </p>
-                  <p class="main-boss-text">
-                    <strong class="strong">Region:</strong> Americas
-                  </p>
-                  <p class="main-boss-text main-boss-text-none">
-                    <strong class="strong">Capital: </strong> Washington, D.C.
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li class="gy-5 col-sm-6 col-md-6 col-lg-3">
-              <div class="main-boss-li">
-                <a href="/brazilya.html">
-                  <img
-                    class="main-boss-img"
-                    src="./img/brazilya.png"
-                    alt="brazilya flag"
-                  />
-                </a>
-
-                <div class="option">
-                  <h3 class="main-boss-big-text">Brazil</h3>
-                  <p class="main-boss-text">
-                    <strong class="strong">Population: </strong> 206,135,893
-                  </p>
-                  <p class="main-boss-text">
-                    <strong class="strong">Region:</strong> Americas
-                  </p>
-                  <p class="main-boss-text main-boss-text-none">
-                    <strong class="strong">Capital:</strong> Brasília
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li class="gy-5 col-sm-6 col-md-6 col-lg-3">
-              <div class="main-boss-li">
-                <a href="/icland.html">
-                  <img
-                    class="main-boss-img"
-                    src="./img/icland.png"
-                    alt="german flag"
-                  />
-                </a>
-
-                <div class="option">
-                  <h3 class="main-boss-big-text">Iceland</h3>
-                  <p class="main-boss-text">
-                    <strong class="strong">Population:</strong> 334,300
-                  </p>
-                  <p class="main-boss-text">
-                    <strong class="strong">Region: </strong> Europe
-                  </p>
-                  <p class="main-boss-text main-boss-text-none">
-                    <strong class="strong">Capital: </strong> Reykjavík
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li class="gy-5 col-sm-6 col-md-6 col-lg-3">
-              <div class="main-boss-li">
-                <a href="/afganiston.html">
-                  <img
-                    class="main-boss-img"
-                    src="./img/afganistan.png"
-                    alt="afganistan flag"
-                  />
-                </a>
-
-                <div class="option">
-                  <h3 class="main-boss-big-text">Afghanistan</h3>
-                  <p class="main-boss-text">
-                    <strong class="strong">Population: </strong> 27,657,145
-                  </p>
-                  <p class="main-boss-text">
-                    <strong class="strong">Region:</strong> Asia
-                  </p>
-                  <p class="main-boss-text main-boss-text-none">
-                    <strong class="strong">Capital: </strong> Kabul
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li class="gy-5 col-sm-6 col-md-6 col-lg-3">
-              <div class="main-boss-li">
-                <a href="/Åland-Islands.html">
-                  <img
-                    class="main-boss-img"
-                    src="./img/aland_island.png"
-                    alt="Åland Islands flag"
-                  />
-                </a>
-
-                <div class="option">
-                  <h3 class="main-boss-big-text">Aland Islands</h3>
-                  <p class="main-boss-text">
-                    <strong class="strong">Population: </strong> 28,875
-                  </p>
-                  <p class="main-boss-text">
-                    <strong class="strong">Region:</strong> Europe
-                  </p>
-                  <p class="main-boss-text main-boss-text-none">
-                    <strong class="strong">Capital: </strong> Mariehamn
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li class="gy-5 col-sm-6 col-md-6 col-lg-3">
-              <div class="main-boss-li">
-                <a href="/Albania.html">
-                  <img
-                    class="main-boss-img"
-                    src="./img/albania.png"
-                    alt="Albania flag"
-                  />
-                </a>
-
-                <div class="option">
-                  <h3 class="main-boss-big-text">Albania</h3>
-                  <p class="main-boss-text">
-                    <strong class="strong">Population: </strong> 2,886,026
-                  </p>
-                  <p class="main-boss-text">
-                    <strong class="strong">Region:</strong> Europe
-                  </p>
-                  <p class="main-boss-text main-boss-text-none">
-                    <strong class="strong">Capital: </strong> Tirana
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li class="gy-5 col-sm-6 col-md-6 col-lg-3">
-              <div class="main-boss-li">
-                <a href="/Algeria.html">
-                  <img
-                    class="main-boss-img"
-                    src="./img/algeriya.png"
-                    alt="Algeria flag"
-                  />
-                </a>
-                <div class="option">
-                  <h3 class="main-boss-big-text">Algeria</h3>
-                  <p class="main-boss-text">
-                    <strong class="strong">Population: </strong> 40,400,000
-                  </p>
-                  <p class="main-boss-text">
-                    <strong class="strong">Region:</strong> Africa
-                  </p>
-                  <p class="main-boss-text main-boss-text-none">
-                    <strong class="strong">Capital: </strong> Algiers
-                  </p>
-                </div>
-              </div>
-            </li>
+          
+       
+          
+ 
           </ul>
         </div>
-      </section>
-      <script src="/js/main.js"></script>
+      </section>     
     </main>
+
+    <template class="template">
+      <li class="gy-5 col-sm-6 col-md-6 col-lg-3 itemjs">
+        <div class="main-boss-li">
+         <div class="img-box">
+
+           <img
+           class="main-boss-img"
+           src=""
+           alt="german flag"
+           />
+          </div>
+          
+          <div class="option">
+            <h3 class="main-boss-big-text countryName">Germany</h3>
+            <p class="main-boss-text ">
+              <strong class="strong">Population: </strong> <span class="countryPopulation"> </span> 
+            </p>
+            <p class="main-boss-text  ">
+              <strong class="strong">Region:</strong> <span class="countryRegion"></span>
+            </p>
+            <p class="main-boss-text main-boss-text-none  ">
+              <strong class="strong">Capital: </strong> <span class="countryCapital"></span>
+            </p>
+            <button class="btn modalJS mt-2 bg-info  " type="submit">more info</button>
+          </div>
+        </div>
+      </li>
+
+    </template>
+    <script src="/js/main.js"></script>
   </body>
 </html>

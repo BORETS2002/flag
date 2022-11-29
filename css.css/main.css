@@ -141,7 +141,7 @@ body {
   width: 480px;
   padding: 18px 71px;
   outline: none;
-  background-image: url("/img/icon-search-black.svg");
+  background-image: url("/img/search.svg");
   background-position: calc(50% - 205px) calc(50%);
   background-repeat: no-repeat;
   background-size: 16px 16px;
@@ -193,7 +193,7 @@ body {
 
 .main-boss-li {
   width: 100%;
-  padding-bottom: 24px;
+  padding-bottom: 14px;
   background: #ffffff;
   box-shadow: 0px 0px 7px 2px #00000007;
   border-radius: 5px;
@@ -213,8 +213,14 @@ body {
   line-height: 26px;
   color: #111517;
 }
+.img-box{
+ max-width:340px;
+}
 .main-boss-img {
   width: 100%;
+  height: 100%;
+  min-height: 160px;
+  max-height: 170px;
   margin-bottom: 24px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -278,12 +284,14 @@ body {
 .body-night .header-boss {
   background-color: #2b3844;
 }
+
 .body-night .search-input::placeholder {
   color: #ffffff;
 }
 .body-night .main-boss-li {
   background-color: #2b3844;
 }
+
 .body-night .main-boss-text {
   color: #fff;
 }
@@ -297,7 +305,7 @@ body {
   color: #fff;
 }
 .body-night .button::before {
-  background-image: url("/img/oy-nigth.svg");
+  background-image: url("/img/oyqora.svg");
 }
 .body-night .herder__img {
   display: none;
@@ -335,7 +343,7 @@ body {
   background-repeat: no-repeat;
 }
 .body-night .back::before {
-  background-image: url("/img/str-oq.svg");
+  background-image: url("/img/Path.svg");
 }
 .body-night {
   background-color: #2b3844;
